@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="nuevo_css.css" media="screen,projection"></link>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+
+    <!-- cabecera -->
+    <div>
+       <nav>
+    <div id="top" class="nav-wrapper">
+      <a href="#" class="brand-logo">BoockShelve</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Inicio</a></li>
+        <li><a href="badges.html">Temas</a></li>
+        <li><a href="collapsible.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- parte central -->
+  <!-- columna izquierda (categorias)-->
+  <div id="columna_izq">
+  <div class="collection">
+        <a href="#!" class="collection-item active">Categorias</a>
+        <a href="#!" class="collection-item">Actualidad</a>
+        <a href="#!" class="collection-item">Deportes</a>
+        <a href="#!" class="collection-item">Informática</a>
+        <a href="#!" class="collection-item">Cocina</a>
+        <a href="#!" class="collection-item">Salud y bienestar</a>
+      </div>
+  </div>
+  </div>
+
+  <!-- columna derecha (contenido)-->
+  <div id="columna_dcha">
+  <h1 class="col_d"> BoockShelve </h1>
+  <h2 class="col_d"> El portal donde encontrará información acerca de todo lo que desee
+
+       <div class="row">
+        <div class="card">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+				<table class="collection with-header highlight">
+		          <thead>
+		            <tr class="collection-header">
+		                <th data-field="id"><h4>Últimas novedades tecnológicas</h4></th>
+		            </tr>
+		          </thead>
+		          <tbody>
+		            <tr class="collection-item">
+		              <td><div>Transferir dinero vía Gmail<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></td>
+		            </tr>
+		            <tr class="collection-item">
+		              <td><div>Cámara de fotos SLR<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></td>
+
+		            </tr>
+		            <tr class="collection-item">
+		              <td><div>Los globos WiFi de Google recorren Brasil<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></td>
+
+		            </tr>
+					<tr class="collection-item">
+						<td><div>Aplicación de la Cruz Roja para emergencias<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></td>
+					</tr>
+		          </tbody>
+		        </table>
+		 	</div>
+	        <div class="card-action">
+	          <a href="#">Más...</a>
+	        </div>
+          </div>
+        </div>
+      </div>
+
+
+		<div class="row">
+        	<div class="card">
+          		<div class="card blue-grey darken-1">
+            		<div class="card-content white-text">
+              			<ul class="collection with-header">
+                			<li class="collection-header"><h4>Últimas novedades deportes</h4></li>
+						     <li class="collection-item"><div>Un clásico al rojo vivo<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						     <li class="collection-item"><div>¿Quién tiene más opciones de ganar la Eurocopa?<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						     <li class="collection-item"><div>Alonso, test médico y a correr<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						     <li class="collection-item"><div>Llull planta a la NBA: "Renové seis años"<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+             			</ul>
+            		</div>
+				    <div class="card-action">
+				      <a href="#">Más...</a>
+				    </div>
+          		</div>
+        	</div>
+      	</div>
+
+
+       <div class="row">
+        <div class="card">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+				<div class="collection">
+					<p class="collection-header">Para recibir más información introduzca sus datos.</p>
+		        	<form id="formulario" class="col s12">
+					
+					  <div class="row">
+        				<div class="input-field col s6">
+						  <input id="first_name" type="text" class="validate">
+						  <label for="first_name">Nombre</label>
+						</div>
+						<div class="input-field col s6">
+						  <input id="last_name" type="text" class="validate">
+						  <label for="last_name">Apellidos</label>
+						</div>
+					  </div>
+					<div class="row">
+        				<div class="input-field col s12">
+          					<input id="email" type="email" class="validate">
+          					<label for="email">Email</label>
+        				</div>
+					  </div>
+					
+						<input id="boton" type="submit" value="Enviar" class="button">
+		   		 	</form>
+				</div>
+            </div>
+            <div class="card-action">
+              <a href="#">Más...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+
+  <footer id="pie" class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Enlaces</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Sobre nosotros</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Política de privacidad</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">@BckS.com</a>
+            </div>
+          </div>
+        </footer>
+
+
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
