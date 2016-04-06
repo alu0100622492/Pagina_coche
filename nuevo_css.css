@@ -56,6 +56,14 @@ footer.page-footer .footer-copyright {
   background-color: black;
 }
 
+table.my_highlight > tbody > tr {
+  transition: background-color .25s ease;
+}
+
+table.my_highlight > tbody > tr:hover {
+  background-color: blue;
+}
+
 .card{
   margin-top: 20px;
 
@@ -85,6 +93,8 @@ footer.page-footer .footer-copyright {
 .entradas{
 	width: 100px;
 }
+
+
 
 #boton{
 	color:black;
